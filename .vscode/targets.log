@@ -1,0 +1,354 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Thu May 19 15:32:50 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/user/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+NVM_INC = /home/user/.nvm/versions/node/v16.15.0/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/user/go/src/github.com/lafcabra/clutch-custom-gateway
+# makefile (from 'Makefile', line 1)
+SHELL := /usr/bin/env bash
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/user/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 7)
+TOOLS_MODULE_DIR := /home/user/go/pkg/mod/github.com/lyft/clutch/tools@v0.0.0-20220517230308-4c1a489e5896
+# environment
+P9K_SSH = 1
+# environment
+VSCODE_CWD = /home/user
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+SSH_CONNECTION = 192.168.0.205 61814 10.0.0.121 22
+# environment
+PATH = /home/user/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/user/.nvm/versions/node/v16.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 6)
+PRIMARY_MODULE_DIR := /home/user/go/pkg/mod/github.com/lyft/clutch/backend@v0.0.0-20220517230308-4c1a489e5896
+# environment
+GOPATH = /home/user/go
+# environment
+NVM_BIN = /home/user/.nvm/versions/node/v16.15.0/bin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-713618fe-f998-473b-87a3-134a19256467.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/user/go/src/github.com/lafcabra/clutch-custom-gateway
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+GOMODCACHE = /home/user/go/pkg/mod
+# environment
+HOME = /home/user
+# environment
+LOGNAME = user
+# makefile (from 'Makefile', line 9)
+YARN := ./build/bin/yarn.sh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+NVM_CD_FLAGS = -q
+# automatic
++F = $(notdir $+)
+# environment
+ZSH = /home/user/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+XDG_SESSION_ID = 10
+# environment
+USER = user
+# makefile (from 'Makefile', line 2)
+.DEFAULT_GOAL := all
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/user
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR --no-print-directory
+# environment
+MFLAGS = -pqrR --no-print-directory
+# environment
+SSH_CLIENT = 192.168.0.205 61814 22
+# environment
+NVM_DIR = /home/user/.nvm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/user/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 8)
+MY_ROOT_DIR := /home/user/go/src/github.com/lafcabra/clutch-custom-gateway
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=85/1024=8%, Rehash=0, Collisions=10/128=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 3150573): 12 files, no impossibilities.
+
+ 
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+backend-test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	cd backend && go test -race -covermode=atomic ./...
+
+yarn-install: yarn-ensure
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 46):
+	$(YARN) --cwd frontend install
+
+all: backend-tidy api frontend backend-with-assets
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+backend:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	cd backend && go build -o ../build/clutch main.go
+
+.PHONY: all api backend backend-dev backend-test backend-with-assets frontend yarn-install yarn-ensure frontend-dev
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+api: yarn-ensure
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	$(SHELL) $(TOOLS_MODULE_DIR)/compile-protos.sh $(MY_ROOT_DIR)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+backend-dev:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	REPO_ROOT=$(MY_ROOT_DIR) $(SHELL) $(TOOLS_MODULE_DIR)/air.sh
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-19 13:38:09.90730163
+#  File has been updated.
+#  Successfully updated.
+
+backend-tidy:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := backend-tidy
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 31):
+	cd backend && go mod tidy
+
+frontend: yarn-install
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 39):
+	$(YARN) --cwd frontend build
+
+yarn-ensure:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 51):
+	@$(SHELL) $(TOOLS_MODULE_DIR)/install-yarn.sh
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+backend-with-assets: frontend
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	cd backend && go run $(PRIMARY_MODULE_DIR)/cmd/assets/generate.go ../frontend/build && go build -tags withAssets -o ../build/clutch -ldflags="-X main.version=$(VERSION)"
+
+frontend-dev: yarn-ensure yarn-install
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 55):
+	$(YARN) --cwd frontend start
+
+# files hash-table stats:
+# Load=15/1024=1%, Rehash=0, Collisions=0/66=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 25 / storage = 242 B / avg = 9 B
+# current buf: size = 8162 B / used = 242 B / count = 25 / avg = 9 B
+
+# strcache performance: lookups = 84 / hit rate = 70%
+# hash-table stats:
+# Load=25/8192=0%, Rehash=0, Collisions=1/84=1%
+# Finished Make data base on Thu May 19 15:32:50 2022
+
+ 

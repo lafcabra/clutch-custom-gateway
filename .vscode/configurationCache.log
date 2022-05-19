@@ -1,0 +1,1 @@
+{"buildTargets":["all","api","backend","backend-dev","backend-test","backend-tidy","backend-with-assets","frontend","frontend-dev","yarn-ensure","yarn-install"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

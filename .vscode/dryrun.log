@@ -1,0 +1,9 @@
+cd backend && go mod tidy
+/usr/bin/env bash /home/user/go/pkg/mod/github.com/lyft/clutch/tools@v0.0.0-20220517230308-4c1a489e5896/install-yarn.sh
+ 
+/usr/bin/env bash /home/user/go/pkg/mod/github.com/lyft/clutch/tools@v0.0.0-20220517230308-4c1a489e5896/compile-protos.sh /home/user/go/src/github.com/lafcabra/clutch-custom-gateway
+./build/bin/yarn.sh --cwd frontend install
+./build/bin/yarn.sh --cwd frontend build
+cd backend && go run /home/user/go/pkg/mod/github.com/lyft/clutch/backend@v0.0.0-20220517230308-4c1a489e5896/cmd/assets/generate.go ../frontend/build && go build -tags withAssets -o ../build/clutch -ldflags="-X main.version="
+make: Leaving directory '/home/user/go/src/github.com/lafcabra/clutch-custom-gateway'
+ 
